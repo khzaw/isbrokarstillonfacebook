@@ -5,7 +5,7 @@ $(function() {
 
   var brokar = '1431546801';
   $.get('http://graph.facebook.com/' + brokar, function(data, status, xhr) {
-    $(".answer").text("Yes!");
+    $(".answer").text("Yes :)");
   }).fail(function() {
     $(".answer").text("No :(");
   }).always(function() {
